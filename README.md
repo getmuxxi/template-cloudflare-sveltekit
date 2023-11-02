@@ -20,10 +20,19 @@ on Cloudflare Pages.
 
 Fork this repo or follow the steps below to recreate from scratch.
 
-### Steps:
+### Setup Steps:
 
-1. Fork this repo on github or recreate from scratch
-1. Clone to local disk `git clone git@github.com:[NEW REPO]`
+Clone this repo as a [template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+
+- Click on "Use this template" button in [github](https://github.com/getmuxxi/template-cloudflare-sveltekit)
+- OR
+- `gh repo create <new-repo-name> --template=getmuxxi/template-cloudflare-sveltekit`
+
+Or follow the steps at the bottom of this guide to recreate from scratch.
+
+Then...
+
+1. Clone new repo to local disk `git clone git@github.com:<new-repo>`
 1. Create a new Pages project in Cloudflare
   1. Setup to auto deploy from Github
 1. Edit the code
