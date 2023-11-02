@@ -1,5 +1,6 @@
 <script>
-	import { Img, Heading, P, A, Li } from 'flowbite-svelte';
+	import { Img, Heading, Card, P, Button } from 'flowbite-svelte';
+	import { ArrowRightOutline } from 'flowbite-svelte-icons';
 </script>
 
 <svelte:head>
@@ -8,18 +9,14 @@
 </svelte:head>
 
 
-<Img src="/images/muxxi_logo.svg" alt="Muxxi" class="w-24 mx-10" />
-
 <Heading class="p-8" tag="h1" customSize="text-3xl">Flowbite Layout Template</Heading>
 
-<P class="px-8 py-4">
-	This page is rendered using Flowbite + Tailwind.
-</P>
 
-<P class="px-8 py-4">
-	<Li><A class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://flowbite-svelte.com/docs/pages/introduction">Flowbite Svelte Docs</A></Li>
-	<Li><A class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://flowbite-svelte-blocks.vercel.app/">Flowbit Svelte blocks</A></Li>
-</P>
+<Card>
+  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">This page is a Svelte page with Flowbite + Tailwind</h5>
+  <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">Refer to the Flowbite Svelete docs for examples of UI elements.</p>
+  <Button href="https://flowbite-svelte.com/docs/pages/introduction" class="w-fit">
+    Flowbite Svelte Docs <ArrowRightOutline class="w-3.5 h-3.5 ml-2 text-white" />
+  </Button>
+</Card>
 
-
-<Img src="/images/muxxi_logo.svg" alt="Muxxi" size="max-w-xs" alignment="my-40 mx-auto" />

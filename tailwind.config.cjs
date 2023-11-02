@@ -3,7 +3,6 @@ export default {
 	content: [
 		'./src/**/*.{html,js,svelte,ts}',
 		'./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}',
-		'./node_modules/flowbite-svelte-blocks/**/*.{html,js,svelte,ts}'
 	],
 
 	plugins: [
@@ -13,8 +12,6 @@ export default {
 
 	darkMode: 'class',
 
-	// See https://github.com/themesberg/flowbite-svelte-block
-	// for flowbite-svelte-blocks theme defaults
 	theme: {
 		extend: {
 			colors: {
