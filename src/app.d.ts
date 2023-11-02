@@ -5,8 +5,20 @@ declare global {
 		// interface Error {}
 		// interface Locals {}
 		// interface PageData {}
-		// interface Platform {}
+
+		// Example Platform interface for Cloudflare
+		// See https://developers.cloudflare.com/pages/framework-guides/deploy-a-svelte-site/
+		// interface Platform {
+		// 	env: {
+		// 		COUNTER: DurableObjectNamespace;
+		// 	};
+		// 	context: {
+		// 		waitUntil(promise: Promise<any>): void;
+		// 	};
+		// 	caches: CacheStorage & { default: Cache };
+		// }
 	}
 }
 
 export {};
+
