@@ -66,6 +66,29 @@ You can preview the production build with `npm run preview`.
 Cloudflare Pages will auto build and deploy when configured properly.
 
 
+# Documentation
+
+Cloudflare
+
+- [Deploying Svelte on Cloudflare Pages](https://developers.cloudflare.com/pages/framework-guides/deploy-a-svelte-site/)
+
+Tailwind & Flowbite
+
+- [Flowbite Svelte Docs](https://flowbite-svelte.com/docs/pages/introduction)
+- [Flowbite Svelte blocks](https://flowbite-svelte-blocks.vercel.app/)
+- [Flowbite Svelte Icons](https://flowbite-svelte.com/docs/extend/icons)
+- [Svelte Heros Icons v2](https://svelte-heros-v2.vercel.app/)
+
+- [Flowbite SvelteKit Responsive Sidebar Layout](https://flowbite-svelte.com/docs/examples/sidebar-layout)
+- [Adding Tailwind and DaisyUI](https://dev.to/brewhousedigital/adding-tailwind-and-daisy-ui-to-sveltekit-2hk5)
+
+```js
+// Example accessing data stored in Cloudflare
+// Needs to be configured in app.d.ts first
+const counter = platform.env.COUNTER.idFromName("A");
+```
+
+
 # Recreating from Scratch
 
 Follow the steps below to recreate this template from scratch.
@@ -109,27 +132,6 @@ npm install -D mdsvex
 1. Copy src/+layout.svelte to setup a basic flowbite page layout
 
 
-## Documentation
-
-Cloudflare
-
-- [Deploying Svelte on Cloudflare Pages](https://developers.cloudflare.com/pages/framework-guides/deploy-a-svelte-site/)
-
-Tailwind & Flowbite
-
-- [Flowbite Svelte Docs](https://flowbite-svelte.com/docs/pages/introduction)
-- [Flowbite Svelte blocks](https://flowbite-svelte-blocks.vercel.app/)
-- [Flowbite Svelte Icons](https://flowbite-svelte.com/docs/extend/icons)
-- [Svelte Heros Icons v2](https://svelte-heros-v2.vercel.app/)
-
-- [Flowbite SvelteKit Responsive Sidebar Layout](https://flowbite-svelte.com/docs/examples/sidebar-layout)
-- [Adding Tailwind and DaisyUI](https://dev.to/brewhousedigital/adding-tailwind-and-daisy-ui-to-sveltekit-2hk5)
-
-```js
-// Example accessing data stored in Cloudflare
-// Needs to be configured in app.d.ts first
-const counter = platform.env.COUNTER.idFromName("A");
-```
 
 
 
