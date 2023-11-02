@@ -107,7 +107,7 @@
 		<SidebarWrapper divClass="overflow-y-auto py-4 px-3 rounded dark:bg-gray-800">
 			<SidebarGroup>
 				<SidebarItem label="About" href="/about" on:click={toggleSide} />
-				<SidebarItem label="API Random" href="/api/random" on:click={toggleSide} />
+				<SidebarItem label="API Random #" href="/api/random" on:click={toggleSide} />
 			</SidebarGroup>
 
 			<!--
