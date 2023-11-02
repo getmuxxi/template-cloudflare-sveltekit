@@ -26,11 +26,14 @@ Fork this repo or follow the steps below to recreate from scratch.
 
 Clone this repo as a [template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
 
-- Click on "Use this template" button in [github](https://github.com/getmuxxi/template-cloudflare-sveltekit)
-- OR
-- `gh repo create <new-repo-name> --template=getmuxxi/template-cloudflare-sveltekit`
+### Cloning Options:
 
-Or follow the steps at the bottom of this guide to recreate from scratch.
+Choose one of these methods:
+
+- Click on "Use this template" button in [github](https://github.com/getmuxxi/template-cloudflare-sveltekit)
+- `gh repo create <new-repo-name> --template=getmuxxi/template-cloudflare-sveltekit`
+- Clone this repo
+- Follow the steps at the bottom of this guide to recreate from scratch
 
 Then...
 
