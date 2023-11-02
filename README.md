@@ -105,8 +105,8 @@ npm install -D mdsvex
 
 ## Step 3: Copy Layouts
 
-1. Copy src/app.html and src/+layout.svelte to setup a basic flowbite page layout
-
+1. Copy src/app.html to enable dark mode class
+1. Copy src/+layout.svelte to setup a basic flowbite page layout
 
 
 ## Documentation
