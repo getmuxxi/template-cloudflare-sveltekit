@@ -2,6 +2,8 @@
 
 Use this template / starter kit to quickly deploy a UI or API on Cloudflare Pages.
 
+[Demo]() - Cloudflare worker
+
 ## Features
 
 - SvelteKit for UI & API endpoints
@@ -17,6 +19,11 @@ Use this template / starter kit to quickly deploy a UI or API on Cloudflare Page
 
 > Flowbite API is subject to change. Best practice is to update the flowbite packages and
 > refer to documentation when creating a new project.
+
+# TODO
+
+- [] Add [OAuth API endpoints](https://blog.cloudflare.com/oauth-2-0-authentication-server/) to make template useful as a GHL app
+
 
 # Getting Started
 
