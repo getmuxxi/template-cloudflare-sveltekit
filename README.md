@@ -22,6 +22,8 @@ Use this template / starter kit to quickly deploy a UI or API on Cloudflare Page
 
 # TODO
 
+- [ ] Create a Cloudflare Pages project for this repo
+- [ ] Link to the Cloudflare Page endpoint in Demo above
 - [ ] Add [OAuth API endpoints](https://blog.cloudflare.com/oauth-2-0-authentication-server/) to make template useful as a GHL app
 
 
