@@ -102,6 +102,10 @@ npm install -D mdsvex
 1. Configure tailwind.config.cjs
 1. Create src/app.css with tailwind imports
 
+## Step 3: Copy Layouts
+
+1. Copy src/app.html and src/+layout.svelte to setup a basic flowbite page layout
+
 
 
 ## Guides & Resources
