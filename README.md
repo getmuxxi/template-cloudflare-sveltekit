@@ -6,14 +6,17 @@ Use this template / starter kit to quickly deploy a UI or API on Cloudflare Page
 
 - SvelteKit for UI & API endpoints
 - Svelte Cloudflare adapter for deploying to Cloudflare Pages
-- Typescript
-- Tailwind + Flowbite for CSS
+- Tailwind + Flowbite + PostCSS for UI elements
+- Flowbite Svelte Icons and Svelte Heros v2 for icons
+- Typescript for code
 - ESLint + Prettier for code formatting
 - Playwright + VITest for testing
 - Auto deploy when code is pushed to github
 - Cloudflare ENV for configuration settings
 - Cloudflare KV & DurableObjects for storing data
 
+> Flowbite API is subject to change. Best practice is to update the flowbite packages and
+> refer to documentation when creating a new project.
 
 # Getting Started
 
@@ -84,7 +87,7 @@ npm install --save-dev @sveltejs/adapter-cloudflare
 
 # Install tailwind and flowbite
 npm install -D tailwindcss postcss autoprefixer @tailwindcss/typography
-npm install -D flowbite-svelte flowbite-svelte-blocks flowbite-svelte-icons svelte-heros-v2
+npm install -D flowbite-svelte flowbite-svelte-icons svelte-heros-v2
 
 # Optionally install mdsvex for markdown support
 npm install -D mdsvex
@@ -108,7 +111,7 @@ npm install -D mdsvex
 
 
 
-## Guides & Resources
+## Documentation
 
 Cloudflare
 
@@ -117,7 +120,10 @@ Cloudflare
 Tailwind & Flowbite
 
 - [Flowbite Svelte Docs](https://flowbite-svelte.com/docs/pages/introduction)
-- [Flowbit Svelte blocks](https://flowbite-svelte-blocks.vercel.app/)
+- [Flowbite Svelte blocks](https://flowbite-svelte-blocks.vercel.app/)
+- [Flowbite Svelte Icons](https://flowbite-svelte.com/docs/extend/icons)
+- [Svelte Heros Icons v2](https://svelte-heros-v2.vercel.app/)
+
 - [Flowbite SvelteKit Responsive Sidebar Layout](https://flowbite-svelte.com/docs/examples/sidebar-layout)
 - [Adding Tailwind and DaisyUI](https://dev.to/brewhousedigital/adding-tailwind-and-daisy-ui-to-sveltekit-2hk5)
 
