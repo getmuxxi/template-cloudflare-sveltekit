@@ -22,7 +22,7 @@ Use this template / starter kit to quickly deploy a UI or API on Cloudflare Page
 
 # TODO
 
-- [] Add [OAuth API endpoints](https://blog.cloudflare.com/oauth-2-0-authentication-server/) to make template useful as a GHL app
+- [ ] Add [OAuth API endpoints](https://blog.cloudflare.com/oauth-2-0-authentication-server/) to make template useful as a GHL app
 
 
 # Getting Started
