@@ -1,7 +1,6 @@
 # Starter Template for SvelteKit on Cloudflare Pages
 
-Use this template / starter kit to quickly deploy a UI and/or API
-on Cloudflare Pages.
+Use this template / starter kit to quickly deploy a UI or API on Cloudflare Pages.
 
 ## Features
 
@@ -16,11 +15,11 @@ on Cloudflare Pages.
 - Cloudflare KV & DurableObjects for storing data
 
 
-## Creating a project from this template
+# Getting Started
 
 Fork this repo or follow the steps below to recreate from scratch.
 
-### Setup Steps:
+## Setup Steps:
 
 Clone this repo as a [template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
 
