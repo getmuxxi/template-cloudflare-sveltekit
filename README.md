@@ -20,10 +20,6 @@ Use this template / starter kit to quickly deploy a UI or API on Cloudflare Page
 
 # Getting Started
 
-Fork this repo or follow the steps below to recreate from scratch.
-
-## Setup Steps:
-
 Clone this repo as a [template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
 
 ### Cloning Options:
@@ -35,7 +31,7 @@ Choose one of these methods:
 - Clone this repo
 - Follow the steps at the bottom of this guide to recreate from scratch
 
-Then...
+### Setup Steps:
 
 1. Clone new repo to local disk `git clone git@github.com:<new-repo>`
 1. Create a new Pages project in Cloudflare
