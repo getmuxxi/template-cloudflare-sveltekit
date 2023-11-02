@@ -118,7 +118,7 @@ Tailwind & Flowbite
 
 - [Flowbite Svelte Docs](https://flowbite-svelte.com/docs/pages/introduction)
 - [Flowbit Svelte blocks](https://flowbite-svelte-blocks.vercel.app/)
-- [Flowbite SvelteKit Responsive Sidebar Layout](https://github.com/shinokada/flowbite-sveltekit-responsive-sidebar-layout/blob/main/src/routes/%2Blayout.svelte)
+- [Flowbite SvelteKit Responsive Sidebar Layout](https://flowbite-svelte.com/docs/examples/sidebar-layout)
 - [Adding Tailwind and DaisyUI](https://dev.to/brewhousedigital/adding-tailwind-and-daisy-ui-to-sveltekit-2hk5)
 
 ```js
