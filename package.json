@@ -14,8 +14,6 @@
 		"test:unit": "vitest"
 	},
 	"devDependencies": {
-		"@fontsource/fira-mono": "^4.5.10",
-		"@neoconfetti/svelte": "^1.0.0",
 		"@playwright/test": "^1.28.1",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/adapter-cloudflare": "^2.3.3",
@@ -29,7 +27,6 @@
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte": "^2.30.0",
 		"flowbite-svelte": "^0.44.19",
-		"flowbite-svelte-blocks": "^0.5.1",
 		"flowbite-svelte-icons": "^0.4.5",
 		"postcss": "^8.4.31",
 		"prettier": "^2.8.0",
