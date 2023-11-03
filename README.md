@@ -2,7 +2,7 @@
 
 Use this template / starter kit to quickly deploy a UI or API on Cloudflare Pages.
 
-[Demo]() - Cloudflare worker
+[Demo](https://template-cloudflare-sveltekit.muxxi.com/) - Cloudflare worker
 
 ## Features
 
