@@ -47,6 +47,13 @@ Choose one of these methods:
 1. Edit the code
 1. `git push` to deploy
 
+```bash
+# after cloning repo
+npm install
+
+# create .svelte-kit dir with tsconfig.json
+npm run check
+```
 
 ## Developing
 

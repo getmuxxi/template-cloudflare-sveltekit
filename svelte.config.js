@@ -2,7 +2,7 @@
 // See below for optional markdown support
 
 import adapter from '@sveltejs/adapter-cloudflare';
-import { vitePreprocess } from '@sveltejs/kit/vite';
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
